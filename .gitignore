@@ -1,0 +1,5 @@
+*.BAK
+cookies/
+settings.toml
+__pycache__/
+*.plist

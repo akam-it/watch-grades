@@ -1,0 +1,28 @@
+# Токены, которые удаляются из названия предмета перед формированием отчета.
+# Удобно для очистки "мусорных" хвостов в именах курсов.
+subject_remove_tokens = ["яяя","ы"]
+
+[telegram]
+# Включить/выключить отправку уведомлений в Telegram.
+enabled = true
+# Токен бота от @BotFather.
+bot_token = "example-bot-token"
+# ID чата/канала для отправки сообщений (например, -100... для канала/супергруппы).
+chat_id = "-1000000000000"
+# Таймаут HTTP-запроса к Telegram API (в секундах).
+timeout = 10
+
+[[students]]
+name = "Алиса Петрова"
+login = "alice.petrov@example.com"
+password = "example-password-1"
+
+[[students]]
+name = "Иван Смирнов"
+login = "ivan.smirnov@example.com"
+password = "example-password-2"
+
+[[students]]
+name = "Мария Волкова"
+login = "maria.volkova@example.com"
+password = "example-password-3"
